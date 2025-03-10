@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Fascinate&family=Grape+Nuts&family=Hachi+Maru+Pop&family=Jua&family=Limelight&display=swap');
+        body {
+            /* font-family: sans-serif; */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #090703ac;
+            padding: 3px;
+            /* margin-left: 300px;
+            margin-right: 300px; */
+
+            text-align: center;
+            font-family: "Limelight", sans-serif;
+            /* font-weight: bold; */
+            font-size: larger;
+            color: rgb(237, 45, 84);
+            /* border-radius: 50px; */
+        }
+        header:hover{
+            color: rgb(255, 108, 137);
+        }
+        nav {
+            background-color: #532E1C;
+            padding: 10px;
+            text-align: center;
+            font-family: "Delius Swash Caps", cursive;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            /* gap: 50px; */
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 15px;
+            text-decoration: none;
+            color: #fbfafa;
+            /* border: solid rgba(0, 0, 0, 0.452); */
+            border-radius: 10px;
+        }
+        nav a:hover{
+            color: rgb(231, 30, 70);
+            /* border: solid rgb(231, 30, 70); */
+            background-color: #090703ac;
+        }
+        .slideshow-container {
+            /* max-width: 1000px; */
+            position: relative;
+            margin: auto;
+            margin-bottom: 0px;
+        }
+        body{
+            background-color: #532E1C;
+        }
+        .welcome{
+            text-align: center;
+            color: #f5b53f;
+            font-size: xx-large;
+            font-family: "Delius Swash Caps", cursive;
+        }
+        .slide {
+            width: 100%;
+        }
+        .slide img {
+            width: 100%;
+            height: fit-content;
+            opacity: 0.6;
+        }
+        .content {
+            padding: 20px;
+            background-color: #c5a8807e;
+            font-family: "Delius Swash Caps", cursive;
+        }
+        footer {
+            background-color: #C5A880;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #modalBtn{
+            padding: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #532E1C;
+            border: none;
+            color: #C5A880;
+            margin-bottom: 50px;
+        }
+        #modalBtn:hover{
+            background-color:#f5b53f;
+            color: #532E1C;
+        }
+        .sub, .email{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #532E1C;
+            border: none;
+            padding: 5px;
+            background-color: #C5A880;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #532E1C;
+            margin: 15% auto;
+            padding: 20px;
+            color:white;
+            /* border: 1px solid #888; */
+            width: 80%;
+        }
+        p.modal-content{
+            font-family: "Delius Swash Caps", cursive;
+            
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .coffeecontent{
+            padding: 20px;
+            background-color: #532E1C;
+            font-family: sans-serif;
+        }
+        .coffee-item, .equipment-item, .event-item {
+             border-radius:  10px;
+             /* margin-right: 500px; */
+             margin-bottom: 10px; 
+             padding: 10px; 
+             display: flex;
+             gap: 50px;
+             background-color: #532e1cc5;
+        }
+        .cimage{
+            width: 200px;
+            height: 200px;
+        }
+        .side{
+            display: flex;
+            background-color: #c5a880a9;
+        }
+        .sideimg{
+            height: 600px;
+            width: 600px;
+            padding: 150px 50px 70px 150px;
+            font-size: xx-large;
+            font-family: "Grape Nuts", cursive;
+            color: #532e1c;
+        }
+        .selection{
+            color: #f5b53f;
+            font-family: "Delius Swash Caps", cursive;
+        }
+        H3{
+            color: #C5A880;
+            font-size: larger;
+            font-family: "Delius Swash Caps", cursive;
+        }
+        .p3{
+            color: rgba(240, 248, 255, 0.796);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .cart{
+            color: #C5A880;
+            padding: 10px;
+            background-color: #090703ac;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border: none;
+            border-radius: 10px;
+        }
+        .equipment-item { 
+
+            border-radius:  10px;
+             /* margin-right: 500px; */
+             margin-bottom: 10px; 
+             padding: 10px; 
+             display: flex;
+             gap: 50px;
+             background-color: #532e1cc5;
+        }
+        .event-item { 
+            margin-bottom: 10px; 
+            padding: 10px; 
+            margin-right: 500px;
+
+        }
+        .offer-item { 
+            border: 1px solid #ddd; 
+            margin-bottom: 10px; 
+            padding: 10px; 
+        }
+        .cart-item img { 
+            max-width: 100px; 
+            margin-right: 20px; 
+        }
+        .eqim{
+            width: 750px;    
+            opacity: 0.2;
+            background-color: #532E1C;
+            border-radius: 900px;
+            margin-top: 80px;
+        }
+        .sideqm{
+            
+            background-color: #532E1C;
+        }
+        .cart:hover{
+            color: rgb(231, 30, 70);
+            /* border: solid rgb(231, 30, 70); */
+            background-color: #090703ac;
+        }
+        .eventtext{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .heads{
+            /* background-color: #090703ac; */
+            padding: 3px;
+            text-align: center;
+            font-family: "Limelight", sans-serif;
+            /* font-weight: bold; */
+            font-size: larger;
+            color: rgb(237, 45, 84);
+        }
+        .coffeehome{
+            display: flex;
+            gap: 80px ;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .seemore{
+            margin-left: 1320px;
+            /* border: #532E1C solid; */
+            text-align: right;
+            justify-content: end;
+            border: none;
+            border-radius: 50px;
+           color: black;
+        }
+        .seemore:hover{
+            color: white;
+        }
+        .coffeehomeimg:hover{
+            transform: scale(1.35);
+            color: #180d08;
+        }
+        .coffeehomeimg{
+            /* border: #532E1C solid; */
+            padding: 20px;
+            border-radius: 20px;
+            
+        }
+        .cimage2{
+            width: 200px;
+            height: 200px;
+            border-radius: 150px;
+            opacity: 0.7;
+        }
+        .homeside{
+            
+            color: black;
+            font-family: "Delius Swash Caps", cursive;
+        }
